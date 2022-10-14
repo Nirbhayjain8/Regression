@@ -1,6 +1,7 @@
 
 from sklearn.datasets import fetch_california_housing
 from sklearn.ensemble import RandomForestRegressor
+import seaborn as sns
 
 if __name__ == "__main__":
     dataset  = fetch_california_housing()
